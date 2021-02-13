@@ -1,5 +1,4 @@
 import React, { useReducer } from "react";
-import {HashLink as Link} from "react-router-hash-link";
 
 function Header(){
     const initHeader = {
@@ -19,10 +18,10 @@ function Header(){
         <header className="container-fluid">
             <div className="row">
                 <div className="col-12 col-lg-6 logo">
-                    <Link to={headerData.logoLink}>
+                    <a href={headerData.logoLink}>
                         <img src={headerData.logo} alt={headerData.logoAlt}/>
                         <span className="company-name text-wrap align-middle">{headerData.name}</span>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </header>

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route } from "react-router-dom";
-import { HashRouter as Router} from "react-router-hash";
+import { HashRouter as Router, Route } from "react-router-dom";
+import { } from "react-router-hash";
 import {Header} from "./components/Header";
 import {Footer} from "./components/Footer";
 import {NavBar} from "./components/NavBar";
@@ -13,8 +13,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Router
-        basename="/jy_profile">
+      <Router basename={ProcessingInstruction.env.PUBLIC_URL}>
         <NavBar/>     
         <Route exact path="/" component={About} />
         <Route exact path="/recent-projects" component={Projects} />
