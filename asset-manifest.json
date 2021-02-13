@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/jy_profile/static/css/main.650c7dbd.chunk.css",
-    "main.js": "/jy_profile/static/js/main.89ca9e3f.chunk.js",
-    "main.js.map": "/jy_profile/static/js/main.89ca9e3f.chunk.js.map",
+    "main.js": "/jy_profile/static/js/main.fca538ec.chunk.js",
+    "main.js.map": "/jy_profile/static/js/main.fca538ec.chunk.js.map",
     "runtime-main.js": "/jy_profile/static/js/runtime-main.90766b52.js",
     "runtime-main.js.map": "/jy_profile/static/js/runtime-main.90766b52.js.map",
     "static/css/2.74fa9957.chunk.css": "/jy_profile/static/css/2.74fa9957.chunk.css",
-    "static/js/2.93f68c87.chunk.js": "/jy_profile/static/js/2.93f68c87.chunk.js",
-    "static/js/2.93f68c87.chunk.js.map": "/jy_profile/static/js/2.93f68c87.chunk.js.map",
+    "static/js/2.1eb9c452.chunk.js": "/jy_profile/static/js/2.1eb9c452.chunk.js",
+    "static/js/2.1eb9c452.chunk.js.map": "/jy_profile/static/js/2.1eb9c452.chunk.js.map",
     "static/js/3.153fe2ad.chunk.js": "/jy_profile/static/js/3.153fe2ad.chunk.js",
     "static/js/3.153fe2ad.chunk.js.map": "/jy_profile/static/js/3.153fe2ad.chunk.js.map",
     "index.html": "/jy_profile/index.html",
     "static/css/2.74fa9957.chunk.css.map": "/jy_profile/static/css/2.74fa9957.chunk.css.map",
     "static/css/main.650c7dbd.chunk.css.map": "/jy_profile/static/css/main.650c7dbd.chunk.css.map",
-    "static/js/2.93f68c87.chunk.js.LICENSE.txt": "/jy_profile/static/js/2.93f68c87.chunk.js.LICENSE.txt",
+    "static/js/2.1eb9c452.chunk.js.LICENSE.txt": "/jy_profile/static/js/2.1eb9c452.chunk.js.LICENSE.txt",
     "static/media/all.min.css": "/jy_profile/static/media/fa-solid-900.f4f93856.woff",
     "static/media/logo.6ce24c58.svg": "/jy_profile/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.90766b52.js",
     "static/css/2.74fa9957.chunk.css",
-    "static/js/2.93f68c87.chunk.js",
+    "static/js/2.1eb9c452.chunk.js",
     "static/css/main.650c7dbd.chunk.css",
-    "static/js/main.89ca9e3f.chunk.js"
+    "static/js/main.fca538ec.chunk.js"
   ]
 }
