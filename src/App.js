@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Router basename={ProcessingInstruction.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar/>     
         <Route exact path="/" component={About} />
         <Route exact path="/recent-projects" component={Projects} />
