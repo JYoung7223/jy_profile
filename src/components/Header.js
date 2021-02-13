@@ -1,4 +1,5 @@
 import React, { useReducer } from "react";
+import {Link} from "react-router-dom";
 
 function Header(){
     const initHeader = {
@@ -18,10 +19,10 @@ function Header(){
         <header className="container-fluid">
             <div className="row">
                 <div className="col-12 col-lg-6 logo">
-                    <a href={headerData.logoLink}>
+                    <Link to={headerData.logoLink}>
                         <img src={headerData.logo} alt={headerData.logoAlt}/>
                         <span className="company-name text-wrap align-middle">{headerData.name}</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </header>
