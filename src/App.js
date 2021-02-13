@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter  as Router, Route } from "react-router-dom";
 import {Header} from "./components/Header";
 import {Footer} from "./components/Footer";
 import {NavBar} from "./components/NavBar";
@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <Header/>
-      <Router>
+      <HashRouter>
         <NavBar/>     
         <Route exact path="/" component={About} />
         <Route exact path="/recent-projects" component={Projects} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-      </Router> 
+      </HashRouter> 
       <Footer/>
     </>
   );
