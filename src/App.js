@@ -12,7 +12,8 @@ function App() {
   return (
     <>
       <Header/>
-      <Router>
+      <Router
+        basename="/jy_profile">
         <NavBar/>     
         <Route exact path="/" component={About} />
         <Route exact path="/recent-projects" component={Projects} />
