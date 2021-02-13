@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <Header/>
-      <HashRouter>
+      <Router>
         <NavBar/>     
         <Route exact path="/" component={About} />
         <Route exact path="/recent-projects" component={Projects} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-      </HashRouter> 
+      </Router> 
       <Footer/>
     </>
   );
