@@ -1,22 +1,22 @@
 [
     {
         "text": "Home",
-        "link": "/index.html",
+        "link": "/",
         "order": 0
     },
     {
         "text": "Projects",
-        "link": "/recent-projects.html",
+        "link": "/recent-projects",
         "order": 1
     },
     {
         "text": "About Me",
-        "link": "/about.html",
+        "link": "/about",
         "order": 2
     },
     {
         "text": "Contact Me",
-        "link": "/contact.html",
+        "link": "/contact",
         "order": 3
     }
 ]
