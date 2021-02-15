@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is a sample profile site that uses Express.js, Node.js, React.js to manage interaction.
+There is currently no back-end DB, or server configurations outside of the standard provided services of heroku/github.
+
 ## Available Scripts
 
 In the project directory, you can run:
