@@ -3,7 +3,7 @@ import React, { useReducer } from "react";
 function Header(){
     const initHeader = {
         name: "United Software Solutions",
-        logo: "/logo.png",
+        logo: "./logo.png",
         logoAlt: "Logo",
         logoLink: "/"
     };

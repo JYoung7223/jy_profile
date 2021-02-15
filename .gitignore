@@ -24,3 +24,7 @@ yarn-error.log*
 
 package-lock.json
 .env
+/client/node_modules
+/client/build
+/client/package-lock.json
+
